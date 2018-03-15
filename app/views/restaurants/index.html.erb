@@ -16,7 +16,7 @@
   <tbody>
     <% @restaurants.each do |restaurant| %>
       <tr>
-        <td><%= restaurant.image %></td>
+        <td><%= image_tag(restaurant.image) %></td>
         <td><%= restaurant.name %></td>
         <td><%= restaurant.place %></td>
         <td><%= restaurant.user.name %></td>

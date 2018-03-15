@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+.user_image {
+  border-radius: 50%;
+  float:left;
+  width: 100px;
+  height: 100px;
+    
+}
